@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+const Home = () =>import('../views/home/Home.vue')
 const LuckyDraw = () =>import('../views/luckyDraw/LuckyDraw.vue')
 
 Vue.use(VueRouter)
@@ -8,6 +9,10 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    component: Home
+  },
+  {
+    path: '/luckyDraw',
     component: LuckyDraw
   }
 ]
