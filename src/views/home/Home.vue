@@ -1,6 +1,7 @@
 <template>
   <div>
-      <button @click="goLuckyDraw">抽奖活动</button>
+      <button @click="goLuckyDraw" style="margin-right: 10px">九宫格抽奖活动</button>
+      <button>转盘抽奖活动</button>
   </div>
 </template>
 
