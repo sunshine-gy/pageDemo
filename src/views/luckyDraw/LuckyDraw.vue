@@ -49,7 +49,7 @@ export default {
     },
     drawAward() {
       this.flag = false;
-      // 请求接口, 这里我就模拟请求后的数据(请求时间为2s)
+      // 请求接口, 这里我就模拟请求后的数据(请求时间为1s)
       setTimeout(() => {
         this.award = {
           id: "4",
